@@ -1,0 +1,28 @@
+body{
+	font-family: 'Inconsolata', monospace;
+}
+
+h2{
+	margin: 0;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+section{
+	background-color: #d3d3d3;
+	margin: 5px;
+	padding: 10px;
+	height: 1000px;
+}
+
+@media (max-width: 767px){
+	#mobile-menu{
+		background-color: #d3d3d3;
+	}
+}
+
+@media (min-width: 768px){
+	#mobile-menu ul{
+		display: none;
+	}
+}
